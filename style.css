@@ -14,11 +14,19 @@
 /* TODO CSS-01: Atur jenis font, warna teks, warna latar belakang,
    margin, dan padding dasar halaman. */
 body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  background-color: black;
+color: aliceblue;
+margin: 25px;
+padding: 25px;
 }
 
 /* TODO CSS-02: Atur lebar konten, posisi, padding, margin,
    border dan border-radius seperlunya. */
 .container {
+display: flex;
+flex-wrap: wrap;
 }
 
 .kepala-halaman {

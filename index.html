@@ -8,46 +8,46 @@
        Lengkapi judul tab browser pada <title> di bawah.
        Kemudian lengkapi judul utama <h1> dan paragraf deskripsi <p>
        di bagian header halaman. -->
-  <title>Isi judul halaman</title>
+  <title>Pengelolah kegiatan kelas</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="container">
     <header class="kepala-halaman">
-      <h1>Isi judul aplikasi</h1>
-      <p>Isi deskripsi singkat aplikasi di sini.</p>
+      <h1>apsensi kelas</h1>
+      <p>di aplikasi ini akan memberi tau jika ada yang hadir di kelas atau ada yang izin.</p>
     </header>
 
     <section class="panel" aria-label="Pengelolaan kegiatan">
-      <h2>Kelola Kegiatan</h2>
+      <h2>Pengapsenan Siswa</h2>
 
       <!-- TODO HTML-02:
            Lengkapi label, input teks, placeholder, dan ID semua elemen.
            Acuan ID: inputKegiatan, btnTambah, btnCari, btnHapus.
            Gunakan type="button" pada ketiga tombol. -->
       <div class="form-baris">
-        <label for="">Nama kegiatan</label>
-        <input type="" id="" placeholder="">
+        <label for="Mengapsen Siswa">Mengapsen Siswa</label>
+        <input type="text" id="inputKegiatan" placeholder="Masukkan nama">
       </div>
 
       <div class="aksi">
-        <button type="button" id="">Tambah</button>
-        <button type="button" id="">Cari</button>
-        <button type="button" id="">Hapus</button>
+        <button type="button" id="btnTambah">Tambah</button>
+        <button type="button" id="btnCari">Cari</button>
+        <button type="button" id="btnHapus">Hapus</button>
       </div>
     </section>
 
     <section class="panel" aria-label="Daftar kegiatan">
-      <h2>Daftar Kegiatan</h2>
+      <h2>Keterangan Kehadiran</h2>
 
       <!-- TODO HTML-03:
            Lengkapi ID untuk daftar, jumlah, dan pesan status.
            Acuan ID: daftarKegiatan, totalKegiatan, pesanStatus. -->
-      <ol id=""></ol>
+      <ol id="daftarKegiatan"></ol>
 
-      <p class="ringkasan">Jumlah kegiatan: <strong id="">-</strong></p>
-      <p id="" aria-live="polite">Status kegiatan akan muncul di sini.</p>
+      <p class="ringkasan">Jumlah Kehadiran: <strong id="totalKegiatan">-</strong></p>
+      <p id="pesanStatus" aria-live="polite">Status kegiatan akan muncul di sini.</p>
     </section>
   </main>
 
