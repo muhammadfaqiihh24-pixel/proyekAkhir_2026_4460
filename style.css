@@ -25,11 +25,15 @@ padding: 25px;
 /* TODO CSS-02: Atur lebar konten, posisi, padding, margin,
    border dan border-radius seperlunya. */
 .container {
-display: flex;
-flex-wrap: wrap;
+width: 100%;
+max-width: 800%;
+margin: 0 auto;
+padding: 20px;
 }
 
 .kepala-halaman {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .panel {
