@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,23 +13,24 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <main class="container">
     <header class="kepala-halaman">
-      <h1>apsensi kelas</h1>
-      <p>di aplikasi ini akan memberi tau jika ada yang hadir di kelas atau ada yang izin.</p>
+      <h1>Pengelolaan kegiatan kelas</h1>
+      <p>di sini bisa mengelolah kegiatan siswa</p>
     </header>
 
     <section class="panel" aria-label="Pengelolaan kegiatan">
-      <h2>Pengapsenan Siswa</h2>
+      <h2>kegiatan Kelas</h2>
 
       <!-- TODO HTML-02:
            Lengkapi label, input teks, placeholder, dan ID semua elemen.
            Acuan ID: inputKegiatan, btnTambah, btnCari, btnHapus.
            Gunakan type="button" pada ketiga tombol. -->
       <div class="form-baris">
-        <label for="Mengapsen Siswa">Mengapsen Siswa</label>
-        <input type="text" id="inputKegiatan" placeholder="Masukkan nama">
+        <label for="nama kegiatan">nama kegiatan</label>
+        <input type="text" id="inputKegiatan" placeholder="Masukkan nama kegiatan">
       </div>
 
       <div class="aksi">
@@ -39,14 +41,14 @@
     </section>
 
     <section class="panel" aria-label="Daftar kegiatan">
-      <h2>Keterangan Kehadiran</h2>
+      <h2>Daftar kegiatan</h2>
 
       <!-- TODO HTML-03:
            Lengkapi ID untuk daftar, jumlah, dan pesan status.
            Acuan ID: daftarKegiatan, totalKegiatan, pesanStatus. -->
       <ol id="daftarKegiatan"></ol>
 
-      <p class="ringkasan">Jumlah Kehadiran: <strong id="totalKegiatan">-</strong></p>
+      <p class="ringkasan">jumlah kegiatan: <strong id="totalKegiatan">-</strong></p>
       <p id="pesanStatus" aria-live="polite">Status kegiatan akan muncul di sini.</p>
     </section>
   </main>
@@ -54,4 +56,5 @@
   <!-- Penghubung JavaScript disediakan guru. Jangan diubah. -->
   <script src="script.js"></script>
 </body>
+
 </html>
